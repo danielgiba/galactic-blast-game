@@ -1,1 +1,1 @@
-# cosmic-conquest-game
+# Galactic Blast
