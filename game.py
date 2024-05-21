@@ -79,7 +79,7 @@ def enter_player_name(screen):
     text = ''
     done = False
 
-    player_text = font.render("NUME PLAYER", True, (255, 255, 255))
+    player_text = font.render("PLAYER", True, (255, 255, 255))
     screen.blit(player_text, (input_box.x, input_box.y - 30))
     pygame.display.flip()
 
@@ -136,8 +136,8 @@ def game_over_screen(screen, score):
 
         screen.fill((0, 0, 0))
         game_over_text = font.render("GAME OVER", True, (255, 255, 255))
-        score_text = font.render(f"Scor: {score}", True, (255, 255, 255))
-        name_prompt_text = font.render("Introduceți numele:", True, (255, 255, 255))
+        score_text = font.render(f"Score: {score}", True, (255, 255, 255))
+        name_prompt_text = font.render("Enter name:", True, (255, 255, 255))
         player_name_text = font.render(player_name, True, (255, 255, 255))
 
         game_over_rect = game_over_text.get_rect(center=(config.SCREEN_WIDTH // 2, config.SCREEN_HEIGHT // 2 - 50))
@@ -269,8 +269,8 @@ def load_game(screen):
             alien.render()
 
         font = pygame.font.Font("fontgame.ttf", 12)
-        score_text = font.render(f"Scor: {score}", True, (255, 255, 255))
-        timer_text = font.render(f"Timp: {timer//frames_per_second} sec", True, (255, 255, 255))
+        score_text = font.render(f"Score: {score}", True, (255, 255, 255))
+        timer_text = font.render(f"Time: {timer//frames_per_second} sec", True, (255, 255, 255))
         screen.blit(score_text, (config.SCREEN_WIDTH - 250, 10))
         screen.blit(timer_text, (config.SCREEN_WIDTH - 250, 40))
         pygame.display.flip()
@@ -283,7 +283,7 @@ def load_game(screen):
     font = pygame.font.Font("fontgame.ttf", 24)
     screen.fill((0, 0, 0))
     game_over_text = font.render("GAME OVER", True, (255, 255, 255))
-    score_text = font.render(f"Scor: {score}", True, (255, 255, 255))
+    score_text = font.render(f"Score: {score}", True, (255, 255, 255))
     screen.blit(game_over_text, (config.SCREEN_WIDTH // 2 - 100, config.SCREEN_HEIGHT // 2 - 50))
     screen.blit(score_text, (config.SCREEN_WIDTH // 2 - 50, config.SCREEN_HEIGHT // 2))
     pygame.display.flip()
