@@ -124,7 +124,6 @@ def game_over_screen(screen, score):
                 done = True
             elif event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_RETURN:
-                    # Salvăm scorul împreună cu numele jucătorului
                     scores = load_scores()
                     scores.append((player_name, score, datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
                     scores.sort(key=lambda x: x[1], reverse=True)
