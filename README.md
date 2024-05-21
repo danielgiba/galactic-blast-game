@@ -1,10 +1,8 @@
     ------------------------GALACTIC BLAST GAME----------------------
-        Welcome to Galactic Blast, an exciting arcade-style shooter game 
-    where you defend Earth from waves of alien invaders. Control your 
-    spaceship using the arrow keys and fire bullets with the "space bar" to 
-    destroy the aliens. The aliens move horizontally and descend towards the bottom 
-    each time they reach the screen's edge. You have three lives, so dodge enemy 
-    fire carefully and prevent the aliens from attacking you, the player.
+        Welcome to Galactic Blast, an exciting arcade-style shooter game where you defend your planet from waves 
+    of alien invaders. Control your spaceship using the arrow keys and fire bullets with the "space bar" to destroy 
+    the aliens. The aliens move horizontally and descend towards the bottom each time they reach the screen's edge. 
+    You have three lives, so dodge enemy bullets carefully and prevent the aliens from attacking you, the player.
 
         GAME INTERFACE
         The game has three main windows: the main menu, the actual game, and the save score & player name screen.
@@ -26,3 +24,19 @@
     to attack, it was easier for me to create a "bullet.py" file, which I then used for both the player and the aliens. 
     Finally, for simplicity, I decided to create a config.py file to manage the positioning of the characters and the game itself, 
     as well as the interface during the game.
+        For the aliens, it was necessary to display them, position them, and handle their movement, as well as determine when and 
+    how they attack. Regarding the player, it involved creating the player character and handling their movement. Additionally, 
+    the player has three lives displayed on the screen, and one life is lost each time they are shot by an alien. For the bullet, 
+    I created its appearance and behavior in the game. Finally, the config.py file was used to set up the game's layout and interface.
+        About the implementation of the actual match, I imported the previously created files and other necessary libraries. Then, I 
+    created the functions for the game: writing and saving the score in the scoreboard, creating the main menu and the scoreboard, 
+    the end-of-match window, writing the player's name at the end of the round in the input box, and most importantly, a function 
+    where the actual gameplay takes place.
+
+
+    
+
+
+
+
+    
