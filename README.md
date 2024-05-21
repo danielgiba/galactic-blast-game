@@ -8,6 +8,6 @@
 
         GAME INTERFACE
         The game has three main windows: the main menu, the actual game, and the save score & player name screen.
-        In the main menu, there are two buttons: one is **START GAME**, which, when clicked, will start the game, 
-    and the other is **SCOREBOARD**, which, when clicked, will display all the scores achieved by players, their names, 
+        In the main menu, there are two buttons: one is __START GAME__, which, when clicked, will start the game, 
+    and the other is SCOREBOARD, which, when clicked, will display all the scores achieved by players, their names, 
     and the date the scores were obtained.
