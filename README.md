@@ -1,4 +1,8 @@
     -----------------------------------------GALACTIC BLAST GAME------------------------------------
+
+        NOTE: This project belongs to Giba George-Daniel, ACS IS - Faculty of Automatic Control 
+        and Computer Science.
+    
         Welcome to Galactic Blast, an exciting arcade-style shooter game where you defend your planet 
         from waves of alien invaders. Control your spaceship using the arrow keys and fire bullets with 
     the "space bar" to destroy the aliens. The aliens move horizontally and descend towards the bottom 
